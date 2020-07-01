@@ -16,7 +16,7 @@ export const msalApp = new UserAgentApplication({
     clientId: '430e7481-f053-4bf0-8ad5-3fd4dbb803e3',
     authority: 'https://login.microsoftonline.com/common',
     validateAuthority: true,
-    postLogoutRedirectUri: 'https://enoms.enovation.ie/meetings',
+    postLogoutRedirectUri: 'https://api.bshp.edu/v1/teams',
     navigateToLoginRequestUrl: false
   },
   cache: {

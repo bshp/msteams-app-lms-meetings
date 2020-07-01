@@ -13,10 +13,10 @@ function isIE() {
 
 export const msalApp = new UserAgentApplication({
   auth: {
-    clientId: 'e1bbfad1-e81e-4f27-ad24-d1969291e713',
-    authority: 'https://login.microsoftonline.com/common',
+    clientId: 'aef11d58-ffea-40d6-ba8a-32fab90f14db',
+    authority: 'https://login.microsoftonline.com/bshp.onmicrosoft.com',
     validateAuthority: true,
-    postLogoutRedirectUri: 'https://enovation.ie/msteams',
+    postLogoutRedirectUri: 'https://api.bshp.edu/v1/teams',
     navigateToLoginRequestUrl: false
   },
   cache: {
